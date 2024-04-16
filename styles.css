@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #282A35;
+    height: 40px;
+    display: flex;
+    justify-content: space-between; /* Aliniere la extremitățile barei */
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+    color: white;
+    font-size: 15px; 
+    font-weight: bold; 
+}
+
+.search-bar {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+    margin: 100;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.text {
+    text-align: center;
+}
+
+.title {
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.recomandation {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.button1 {
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.button2 {
+    color: white;
+    padding: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #3f3f3f;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #F5FFFA;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #999; /* Adaugă o bordură solidă de 1px la partea de jos */
+    box-shadow: 2px 2px 5px rgba(0,0,255,0.2);
+    width: calc(33.33% - 10px); /* Setează lățimea fiecărui chenar la 33.33% din lățimea containerului */
+    height: 250px;
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Asigură că marginile nu măresc lățimea totală */
+}
+
+.thumbnail {
+    padding: 20px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #3f3f3f;
+    color: #333;
+}
+
+.thumbnail h4 {
+    color: #fff;
+    text-align: center;
+}
+
+.textThumbnail {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 3px;
+    background-color: white;
+    border: 1px solid grey;
+    color: grey;
+    text-decoration: none;
+}
+
+.custom-button:hover {
+    background-color: #999;
+}
+
+.down-text {
+    margin-left: 10px;
+    color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+}
